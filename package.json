@@ -1,0 +1,8 @@
+{
+	"name": "node-demo",
+	"description":"dorian's test app",
+	"private":true,
+    "scripts": {
+        "start" : "nodemon server.js"
+    }
+}
