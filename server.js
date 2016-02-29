@@ -1,9 +1,7 @@
 /// <reference path="node_modules/typings/main.d.ts" />
 
 var http = require('http');
-var url = require('url');
 var fs = require('fs');
-var path = require('path');
 var qs = require('querystring');
 
 var server = http.createServer(function(request, response){
